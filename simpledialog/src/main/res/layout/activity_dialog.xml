@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/dialoglibraryContent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_white_radius_small">
+        <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_small"
+                style="@style/TextView.Small.Big"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:gravity="left|top"/>
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <TextView
+                        android:id="@+id/dialog_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/margin_small"
+                        style="@style/TextView.Small"
+                        android:ellipsize="none"
+                        android:maxLines="1000"
+                        android:textColor="@color/colorTextSoft"
+                        android:textStyle="bold"
+                        android:gravity="left|top"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#04000000">
+                    <TextView
+                            android:id="@+id/button_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:background="?attr/selectableItemBackground"
+                            android:gravity="center"
+                            android:clickable="true"
+                            style="@style/TextView.Small"
+                            android:textColor="@color/red"
+                            android:textAllCaps="true"
+                            android:onClick="onOkey"
+                            android:focusable="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.barisatalay.simpledialog">
+    <application
+    >
+        <activity
+                android:name=".ui.DialogActivity"
+                android:theme="@style/AppTheme.Default.Dialog"/>
+    </application>
+</manifest>
