@@ -44,7 +44,6 @@ Add dependencies in build.gradle.
 ```
 
 ### Step 3 (Use of library)
-Create FilterDialog for Custom class;
 ```java
    val style = mdlStyle(
      titleColor = R.color.colorPrimary,
