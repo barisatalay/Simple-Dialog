@@ -1,4 +1,5 @@
 [![](https://jitpack.io/v/barisatalay/Simple-Dialog.svg)](https://jitpack.io/#barisatalay/Simple-Dialog)
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Simple%20Dialog-green.svg?style=flat )]( https://android-arsenal.com/details/1/7791 )
 
 # Simple-Dialog
 Simple Message Dialog for Android Projects
